@@ -1,0 +1,29 @@
+<html>
+<!--<head>-->
+    <%- include('../partials/head') %>
+
+<body>
+    <form 
+    method="POST"
+    action="/users/"
+    enctype="multipart/form-data">
+        <div class="column">
+            <a class="go-back" href="/users/"><i class="fas fa-chevron-left"></i> Voltar</a>
+            <div class="label">Avatar</div>
+            <input type="file" name="avatar" required>
+            <div style="height: 18px;"></div>
+            <div class="label">Nome</div>
+            <input type="text" name="name" required >
+            <div style="height: 18px"></div>
+            <div class="label">Email</div>
+            <input type="text" name="email" required >
+            <div style="height: 24px"></div>
+            <button class="button bg-success">
+                <i class="fas fa-save"></i>
+            </button>
+        </div>
+        
+        
+        </form>
+</body>
+</html>

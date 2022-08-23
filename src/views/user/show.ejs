@@ -1,0 +1,28 @@
+<html>
+  <!-- <head> -->
+    <%- include('../partials/head') %>
+  <!-- </head> -->
+  <body>
+    <div class="column">
+      <a class="go-back" href="/users/"><i class="fas fa-chevron-left"></i> Voltar</a>
+      <div class="row justify-center">
+      </div>
+      <div style="height: 18px"></div>
+      <div class="label">Nome</div>
+      <input type="text" readonly>
+      <div style="height: 18px"></div>
+      <div class="label">Email</div>
+      <input type="text" readonly >
+      <div style="height: 24px"></div>
+      <div class="row">
+          <i class="fas fa-pen"></i>
+        </a>
+        <div style="width: 8px"></div>
+        <form method="POST" action =''>
+          <button class="button bg-danger">
+            <i class="fas fa-trash"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
